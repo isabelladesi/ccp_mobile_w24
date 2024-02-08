@@ -23,6 +23,6 @@ nav ul {
   }
   
   nav ul li a.active {
-    background-color: #007bff;
-    color: #9b6dff;
+    background-color: #9b6dff;
+    color: #fff;
   }
