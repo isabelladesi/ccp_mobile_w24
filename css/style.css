@@ -5,6 +5,11 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.current-page{
+    color:#651fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -25,3 +30,4 @@ nav ul {
     background-color: #9b6dff;
     color: #651fff;
   }
+  /* .active vs :active didnt do anything i dont */
