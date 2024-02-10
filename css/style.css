@@ -10,16 +10,17 @@
 }
 .bacon-photos{ /*this is for all pets EXCEPT the bacon dog */
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     grid-column-gap: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 .image-fit{
-    width: 164px; /*140*/
-    height: 260px;
+    /* width: 164px; /*140*/
+    /*height: 260px; */
     object-fit: cover;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
 }
 .skip-this{
     position: absolute;
