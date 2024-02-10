@@ -14,8 +14,8 @@
     grid-column-gap: 10px;
 }
 .image-fit{
-    width: 150px;
-    height: 250px;
+    width: 125px;
+    height: 225px;
     object-fit: cover;
 }
 .skip-this{
