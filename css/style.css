@@ -16,10 +16,10 @@
     border-radius: 8px;
 }
 .image-fit{
-    width: 140px;
-    height: 240px;
+    width: 164px; /*140*/
+    height: 260px;
     object-fit: cover;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 .skip-this{
     position: absolute;
