@@ -60,7 +60,7 @@ h2{
 .skip-this{
     position: absolute;
     left: -1000px;
-    color: #bbb;
+    color: #000;
 }
 .skip-this:focus{
     left: 10px;
