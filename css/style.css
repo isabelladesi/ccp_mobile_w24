@@ -1,7 +1,10 @@
 .grid-container{
     display: grid;
 }
-.underline{
+h1 {
+    text-align: center; /* Center the heading horizontally */
+}
+h2{
     text-decoration: underline;
 }
 .four-photos{
@@ -28,6 +31,14 @@
     width: 100%;
     grid-column-gap: 10px;
     border-radius: 20px;
+
+}
+.one-col-main{
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    grid-column-gap: 10px;
+    /* border-radius: 20px; */
 
 }
 .main-image{
