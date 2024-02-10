@@ -60,10 +60,11 @@ h2{
 .skip-this{
     position: absolute;
     left: -1000px;
-    color: #fff;
+    color: #bbb;
 }
 .skip-this:focus{
     left: 10px;
+    color: #000;
 }
 .current-page{
     color:#651fff;
