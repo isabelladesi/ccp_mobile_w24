@@ -6,16 +6,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     grid-column-gap: 10px;
+    border-radius: 8px;
 }
 .bacon-photos{ /*this is for all pets EXCEPT the bacon dog */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     grid-column-gap: 10px;
+    border-radius: 8px;
 }
 .image-fit{
-    width: 125px;
-    height: 225px;
+    width: 130px;
+    height: 230px;
     object-fit: cover;
 }
 .skip-this{
