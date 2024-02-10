@@ -9,7 +9,7 @@
 }
 .bacon-photos{ /*this is for all pets EXCEPT the bacon dog */
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     grid-column-gap: 10px;
 }
