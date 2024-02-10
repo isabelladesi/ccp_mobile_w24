@@ -53,6 +53,7 @@ h2{
     object-fit: cover;
     max-width: 100%; /* Ensure images don't exceed the width of their container */
     height: auto; 
+    border-radius: 10px;
     /* padding-bottom: 8px; */
  }
 
