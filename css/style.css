@@ -1,9 +1,9 @@
 .grid-container{
     display: grid;
 }
-.bacon-photosREAL{
+.four-photos{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     grid-column-gap: 10px;
     border-radius: 8px;
