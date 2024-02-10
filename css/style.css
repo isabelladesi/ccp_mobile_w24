@@ -18,15 +18,16 @@
     grid-column-gap: 10px;
     border-radius: 10px;
     padding-bottom: 10px;
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-    height: auto; 
 }
-/* .image-fit{
+ .image-fit{
     /* width: 164px; /*140*/
     /*height: 260px; */
-    /*object-fit: cover;
+    object-fit: cover;
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; 
     /* padding-bottom: 8px; */
-    
+ }
+
 .skip-this{
     position: absolute;
     left: -1000px;
