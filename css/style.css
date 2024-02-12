@@ -42,7 +42,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-ol {
+.ordered-list {
     display: block;
     list-style-type: decimal;
     margin-block-start: 1em;
@@ -137,7 +137,7 @@ nav ul {
     background-color: #9b6dff;
     color: #651fff;
   }
-  nav ul li a:visited {
+  /* nav ul li a:visited {
     color: -webkit-link;
-  }
+  } */
   /* .active vs :active didnt do anything i dont */
