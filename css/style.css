@@ -132,11 +132,14 @@ nav ul {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #0a1172;
+    /* color: #0a1172; */
   }
   nav ul li a:active {
     background-color: #9b6dff;
     color: #651fff;
+  }
+  nav ul li a:visited {
+    color: #0a1172;; /* Change color for visited links */
   }
   /* nav ul li a:visited {
     color: -webkit-link;
