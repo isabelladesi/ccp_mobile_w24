@@ -58,8 +58,8 @@ ul {
     width: 100%;
     grid-column-gap: 10px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     /* padding-bottom: 10px; */
 }
 .one-col{
@@ -127,5 +127,8 @@ nav ul {
   nav ul li a:active {
     background-color: #9b6dff;
     color: #651fff;
+  }
+  nav ul li a:visited {
+    color: -webkit-link;
   }
   /* .active vs :active didnt do anything i dont */
