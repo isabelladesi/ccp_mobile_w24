@@ -38,6 +38,8 @@ p {
     padding-left: 10px;
     margin-block-start: 1em;
     margin-inline-end: 10px;
+    font-family: "Open Sans", sans-serif;
+
 }
 ul {
     display: block;
@@ -163,8 +165,6 @@ nav ul {
   }
   .index-body{
     background-color: #ffcaaf;
-    background: url(siteimg.webp) right bottom no-repeat;
-    padding: 15px;
   }
   /* nav ul li a:visited {
     color: -webkit-link;
