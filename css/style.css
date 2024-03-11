@@ -1,6 +1,9 @@
 .grid-container{
     display: grid;
 }
+/* .body{ */
+  /* cursor: url(images/cursor.png), auto; */
+/* } */
 h1 {
     text-align: center; /* Center the heading horizontally */
     /* font-size: 2em; */
@@ -154,7 +157,11 @@ nav ul {
     video{
         display: none;
     }
+    source {
+      display: none
+    }
   }
+  
   .pets-body{
     background-color: #fec8d8;
   }
@@ -166,6 +173,45 @@ nav ul {
   }
   .index-body{
     background-color: #d6efed;
+  }
+
+  @media screen and (min-width: 680px){
+    .pet-container{
+      display: flex;
+        justify-content: space-between;
+        
+        align-items: flex-start;
+  }
+  .main-bacon-image, .bacon-likes, .main-image, .pet-likes {
+    flex: 1; /* This makes both children of .pet-container take up equal space */
+  }
+  .main-image img{
+    height: auto;
+  }
+  .travel-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .travel-item{
+    text-align: center;
+  }
+
+  .interactive-image, .one-col-main{
+    transition: opacity 0.3s ease;
+    
+  }
+  .interactive-image:hover , .one-col-main:hover{
+    opacity: 0.7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  }
+  .main-part-index{
+    p{
+      font-size: 20px;
+    }
+  }
+  
+    
+
   }
   /* nav ul li a:visited {
     color: -webkit-link;
